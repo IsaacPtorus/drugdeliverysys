@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyDAWA/register</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+<body>
+<fieldset> <legend class="bold">Contact Us</legend>
+<form action="">
+
+
+
+            <fieldset>
+        <legend class="bold">Personal Details</legend><br>
+            <label for="name">Name*</label>
+            <input type="text" id="name" required>
+            <br><br><br>
+            <label for="email">Email*</label>
+            <input type="email" id="email" required>
+            <br><br><br>
+            <label for="msg">Message</label>
+            <input type="text" id="msg" required>
+</fieldset>
+</form>
+<br>
+If you don't have a company,skip the next section
+<br><br>
+<form action="">
+    <fieldset>
+          <legend class="bold">Company Details</legend><br>
+            <label for="bno">Business Number*</label>
+            <input type="text" id="bno" required>
+            <br><br><br>
+            <label for="pno">Phone Number*</label>
+            <input type="text" id="pno" required>
+            <br><br><br>
+            <label for="web">Website Info</label>
+            <input type="text" id="web" required>
+        <h4>Topic</h4>
+ <label for="options" style="background-color: lightcoral"></label>
+    <select name="" id="options">
+        <option value="Choose" disabled="disabled">Choose</option>
+        <option value="purchases">Purchases</option>
+        <option value="customer care">Customer Care</option>
+        <option value="agents">Agents</option>
+        <option value="delivery">Deliveries</option>
+    </select><br>
+        <p style="font-weight: bold">Message</p>
+        <textarea name="" id="" cols="210" rows="10" placeholder="Type your message here..."></textarea>
+    </fieldset>
+
+</form>
+</fieldset>
+<button style="background-color: #4b4b87" >SEND</button>
+
+</body>
+</html>

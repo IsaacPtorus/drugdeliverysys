@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    padding-left: 40px;
+  background-color: #0699d8;
+}
+#d-vision{
+    display: flex;
+
+}
+#a{
+    background-color: brown;
+}
+#aa{
+    background-color: blue;
+}
+#a:hover{
+    background-color: #6c6c2a;
+}
+#aa:hover{
+    background-color: #2a6118;
+}
